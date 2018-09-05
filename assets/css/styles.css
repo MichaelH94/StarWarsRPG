@@ -1,1 +1,33 @@
-/* Styles */
+/* Styles for characters */
+
+#luke, #obiWan, #darthVader, #darthSidious {
+    border: red 2px solid;
+    text-align: center;
+    background-color: lightgray;
+    margin: 1px;
+}
+#lukeE, #obiWanE, #darthVaderE, #darthSidiousE {
+    display: none;
+    text-align: center;
+    background-color: lightgray;
+    margin: 1px;
+    border: red 2px solid;
+}
+
+#attackbtn {
+    display: none;
+}
+
+img {
+    border-radius: 2px;
+}
+
+#messageLog, #gametitle {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+body {
+    padding: 1px;
+    background-image: url("../background.jpg");
+}

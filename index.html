@@ -11,72 +11,92 @@
   <body>
     <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand mx-auto" href="index.html">Star Wars RPG!</a>
+        <a class="navbar-brand mx-auto" id="gametitle" href="index.html">Star Wars RPG!</a>
     </nav>
     </div>
 
     <div class="container-fluid">
     <div class="row">
             <div id="luke">
-                <div class="card text-center" style="width: 12rem;">
-                <img class="card-img-top" src="assets/lukeskywalker.jpg" width="150px" height="150px">
-
-            </div>
+                <div class="container">
+                    <h5>Luke Skywalker</h5>
+                    <img src="assets/lukeskywalker.jpg" width="150px" height="150px">
+                    <div id="lukeN">Health: 200</div>
+                </div>
             </div>
         <div id="obiWan">
-                <div class="card text-center" style="width: 12rem;">
-                <img class="card-img-top" src="assets/obiwankenobi.jpg" width="150px" height="150px">
-            </div>
+                <div class="container">
+                    <h5>Obi-Wan Kenobi</h5>
+                    <img src="assets/obiwankenobi.jpg" width="150px" height="150px">
+                    <div id="obiWanN">Health: 300</div>
+                </div>
             </div>
         <div id="darthVader">
-                <div class="card text-center" style="width: 12rem;">
-                <img class="card-img-top" src="assets/darthvader.jpg" width="150px" height="150px">
-            </div>
+                <div class="container">
+                        <h5>Darth Vader</h5>
+                        <img src="assets/darthvader.jpg" width="150px" height="150px">
+                        <div id="darthVaderN">Health: 500</div>
+                    </div>
             </div>
         <div id="darthSidious">
-                <div class="card text-center" style="width: 12rem;">
-                <img class="card-img-top" src="assets/darthsidious.jpg" width="150px" height="150px">
-        </div>
+                <div class="container">
+                        <h5>Darth Sidious</h5>
+                        <img src="assets/darthsidious.jpg" width="150px" height="150px">
+                        <div id="darthSidiousN">Health: 400</div>
+                    </div>
         </div>
 
         </div>
-
-    <div class="row">
-     <div id="chooseFighter">Choose your fighter!</div>
-    </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-        <div id="fighterSection">test</div>
-        </div>
-    </div>
 
 <div class="container-fluid">
+ 
  <div class="row">
-     <div class="col-1">
-    <div id="activeEnemy">test</div>
- </div>
+        <div id="lukeE">
+                <div class="container">
+                    <h5>Luke Skywalker</h5>
+                    <img src="assets/lukeskywalker.jpg" width="150px" height="150px">
+                    <div id="lukeN1">Health: 200</div>
+                </div>
+            </div>
+        <div id="obiWanE">
+                <div class="container">
+                    <h5>Obi-Wan Kenobi</h5>
+                    <img src="assets/obiwankenobi.jpg" width="150px" height="150px">
+                    <div id="obiWanN1">Health: 300</div>
+                </div>
+            </div>
+        <div id="darthVaderE">
+                <div class="container">
+                        <h5>Darth Vader</h5>
+                        <img src="assets/darthvader.jpg" width="150px" height="150px">
+                        <div id="darthVaderN1">Health: 500</div>
+                    </div>
+            </div>
+        <div id="darthSidiousE">
+                <div class="container">
+                        <h5>Darth Sidious</h5>
+                        <img src="assets/darthsidious.jpg" width="150px" height="150px">
+                        <div id="darthSidiousN1">Health: 400</div>
+                    </div>
+        </div>
 
- </div>
- <div class="row">
-     <div id="enemySection">Enemy section</div>
- </div>
+        </div>
+</div>
 </div>
 
 <div class="container-fluid">
+
 <div class="row">
-    <div id="fightTag">FIGHT!</div>
+<div id="messageLog">Pick your fighter to begin.</div>
 </div>
-<div class="row">
-    Message Log:
-</div>
-<div id="messageLog"></div>
+
 </div>
 
 <div class="container-fluid">
     <div class="row">
-            <button type="button" class="btn btn-danger">Attack</button>
+            <button type="button" id="attackbtn" class="btn btn-danger">Attack</button>
     </div>
 </div>
 
