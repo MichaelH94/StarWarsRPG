@@ -26,6 +26,13 @@ var chars = {
 
 }
 
+$(document).ready(function() {
+console.log("Luke's path: Obi-Wan, Darth Sidious, Darth Vader");
+console.log("Obi-Wan's path: Luke, Darth Vader, Darth Sidious");
+console.log("Darth Vader's path: Luke, Obi-Wan, Darth Sidious");
+console.log("Darth Sidious's path: Obi-Wan, Darth Vader, Luke");
+ });
+
 var dmgX = 0; // Player dmg
 var dmgY = 0; // Enemy dmg
 
